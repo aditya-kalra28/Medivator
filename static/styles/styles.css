@@ -1,0 +1,226 @@
+.logotext {
+  /* height:40%;
+  width:30%; */
+  height: 70px;
+  width: 420px;
+}
+
+.site {
+  background-color: #4f4e4e;
+  /* background-color: #f5f5f5; */
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.logo {
+  /* height:5%;
+  width:5%; */
+  height: 70px;
+  width: 70px;
+  margin-top: 10px;
+}
+
+.cam{
+  width:35%;
+  position:absolute;
+  margin-top:170px;
+  margin-left:256.5px;
+}
+
+.camholder {
+  width: 50%;
+  height: 80%;
+  margin-left: 0;
+  position: absolute;
+  margin-bottom: 0;
+}
+
+#floor_lift{
+  color: greenyellow;
+  font-size: large;
+  position:absolute;
+  margin-top:50px;
+  margin-left:385px;
+}
+
+.cam-elev {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.right {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.model {
+  height: 70%;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 6%;
+}
+
+#lift {
+  height: 60px;
+  width: 40px;
+  position: relative;
+  bottom:-175px;
+  left: 65%;
+  animation: mymove 5s infinite;
+}
+
+#contact {
+  position: absolute;
+  background-color: #212121;
+  /* background-color: black; */
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  top: 100%;
+  margin-top:-15px;
+}
+#contact h2{
+  height: fit-content;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+}
+@font-face {
+  font-family: watan;
+  src: url("watan.ttf");
+}
+#contactus {
+  margin: 10px;
+  background-color: #503d3f;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+  width: auto;
+  transition-duration: 0.2;
+  z-index: 3;
+  visibility: hidden;
+}
+.name {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+.name > p {
+  font-size: 0.5rem;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #e94f37;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: watan;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.how-is-us {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 55%;
+  transform-style: preserve-3d;
+}
+.how-is-us .box {
+  position: relative;
+  width: 180px;
+  height: 210px;
+  margin: 20px 0;
+  perspective: 1000px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+.how-is-us .box .imgbx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+.how-is-us .box:hover .imgbx {
+  transform: rotateX(-90deg);
+  opacity: 0;
+  transition-delay: 0s;
+}
+.how-is-us .box .imgbx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.how-is-us .box .contentbx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transform: rotateX(90deg);
+  opacity: 0;
+  color: #fff;
+  overflow-y: scroll;
+}
+.how-is-us .box:hover .contentbx {
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+.contentbx > a > img {
+  margin-top: 15px;
+  margin-right: 10px;
+  height: 27px;
+  width: 30px;
+}
+::-webkit-scrollbar {
+  width:1px;
+}
+.contentbx > a{
+  text-decoration: none;
+}
+p{
+	font-size: 12px;
+}
+.button {
+background-color: #54321d;
+border: none;
+color: white;
+padding: 6px 16px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 8px;
+}
+.button1 {
+background-color: white;
+color: black;
+border: 2px solid grey;
+position: absolute;
+right:23%;
+}
+.button1:hover {
+background-color: grey;
+color: white;
+}
