@@ -12,8 +12,8 @@ cap = cv2.VideoCapture(0)
 
 
 def gen_frames():
-    wCam, hCam = 640, 480
     global handfingers
+    wCam, hCam = 640, 480
     folderPath = "resized"
     myList = os.listdir(folderPath)
     overlayList = []
