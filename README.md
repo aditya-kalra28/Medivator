@@ -1,5 +1,8 @@
 # Medivator
 
+Hands-free elevator system that uses finger gesture recognition to navigate.
+
+
 ## Running the application
 
 ```
